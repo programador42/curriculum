@@ -1,0 +1,39 @@
+:root {
+    --theme-color: rgb(246, 241, 241);
+    --primary-color: #15ede6;
+    --secondary-color: #071f5e;
+    --text-color-inverse: rgb(14, 20, 190);
+    --text-color: rgb(5, 8, 49);
+    --navbar-shallow-color: #0cc2eb;
+    --menu-mobile-background-color: #38d4f3;
+}
+
+html {
+    scroll-behavior: auto;
+}
+
+section[id] {
+    scroll-margin-top: 70px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif, Calibri, "Times New Roman", Times, serif;
+    background-color: var(--theme-color);
+    color: var(--text-color);
+    padding-top: 70px;
+}
+
+a {
+    text-decoration: gold;
+    color: var(--text-color);
+}
+
+.horizontal-padding {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.vertical-padding {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
