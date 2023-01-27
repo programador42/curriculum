@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--ESTE ES EL TITULO DE LA PAGINA-->
+    <title>Carlos Rottem CV</title>
+    <meta name="description" content="CV Argentina programa" />
+
+    <link rel="apple-touch-icon" sizes="180x180" href="./img/img.jpg" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./img/img.jpg" />
+    <link rel="icon" type="favicon" sizes="16x16" href="./img/icono-hamburguesa.svg" />
+    <link rel="manifest" href="./img/img.jpg" />
+    <!--ESTOS SON LOS LINKS PARA CONECTAR CON CSS-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/navbar.css" />
+    <link rel="stylesheet" href="css/profile.css" />
+    <link rel="stylesheet" href="css/skills.css" />
+    <link rel="stylesheet" href="css/experiences.css" />
+    <link rel="stylesheet" href="css/contact.css" />
+    <!--ESTE ES EL ENLACE PARA CONECTAR JAVA SCRIPT-->
+    <script defer src="js/app.js"></script>
+</head>
+
+<body>
+    <!--ESTE ES EL ENCABEZADO DE LA PAGINA-->
+    <header class="topheader">
+        <nav class="topnav">
+            <a href="#" class="logo">
+                <img height="50" width="50" src="./img/img.jpg" alt="programador" />
+                <div class="logotype">
+                    Carlos Rottem<br /> CV
+                </div>
+            </a>
+            <button class="open-menu" aria-label="Abrir menú">
+          <img src="img/icono-hamburguesa.svg" alt="abrir menú" />
+        </button>
+            <ul class="menu">
+                <button class="close-menu" aria-label="Cerrar menú">
+            <img src="img/close-icon.svg" alt="cerrar menú" />
+          </button>
+                <!--ESTOS SON LOS LINKS A LAS DIFERENTES SECCIONES DE LA PAGINA-->
+                <li><a href="#profile" class="selected">Mis Datos</a></li>
+                <li><a href="#experience">Estudios</a></li>
+                <li><a href="#skills">Habilidades</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="horizontal-padding vertical-padding">
+        <section class="profile" id="profile">
+            <div class="profile-info">
+                <h1 class="profile-title">Hola, Este es mi <br />Currículum</h1>
+                <p class="profile-details">
+                    <h4>Nombre y Apellido:Carlos Rottem</h4>
+                    <h4>Edad: 25 Años</h4>
+                    <h4>Domicilio: Av. SiempreViva 742</h4>
+                    <h4>Ocupacion:Estudiante de Programacion en:</h4>
+                </p>
+                <a class="profile-btn" href="https://www.argentina.gob.ar/economia/conocimiento/argentina-programa" download>ARGENTINA PROGRAMA!!</a
+          >
+        </div>
+        <span class="profile-img-section">
+          <img
+            class="profile-img"
+            src="./img/img.jpg"
+            alt="programador"
+          />
+          <div class="profile-img-line"></div>
+        </span>
+      </section>
+    </div>
+
+    <section class="experiences" id="experience">
+      <img src="img/wave.svg" alt="división" class="wave" />
+      <div class="experiences-body">
+        <h2 class="experiences-title">Estudios</h2>
+        <div class="experiences-grid">
+          <div class="empty"></div>
+          
+          <div class="experience">
+            <div class="experience-date">2018-2023</div>
+            <div class="experience-company">Argentina Programa</div>
+            <div class="experience-position">Estudiante</div>
+            <div class="experience-description">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias ad eveniet in necessitatibus, suscipit quo qui deserunt beatae, quae, vero illo! Porro, assumenda provident rerum aliquid aut quibusdam perspiciatis blanditiis?
+            </div>
+          </div>
+          <div class="experience experience_left">
+            <div class="experience-date">2016-2018</div>
+            <div class="experience-company">Capacitacion Virtual</div>
+            <div class="experience-position">Programacion HTML</div>
+            <div class="experience-description">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat minus at blanditiis. Facere quibusdam maiores temporibus nulla, quasi obcaecati animi vero, unde labore saepe natus commodi quas repellat mollitia perferendis.
+            </div>
+          </div>
+          
+          
+          
+          <div class="experience">
+            <div class="experience-date">2012-2015</div>
+            <div class="experience-company">Distrito Noroeste</div>
+            <div class="experience-position">Programacion Basica</div>
+            <div class="experience-description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem nobis nam aliquam at, rerum quas maiores libero minima odio quisquam delectus saepe neque similique deserunt, facere cupiditate suscipit, quasi veritatis!
+            </div>
+          </div>
+        </div>
+      </div>
+      <img src="img/wave.svg" alt="división" class="wave wave_bottom" />
+    </section>
+
+    <div class="horizontal-padding vertical-padding">
+      <section class="skills" id="skills">
+        <h2 class="skills-title">Habilidades</h2>
+        <ul class="skills-list">
+          <li class="skills-skill">CSS</li>
+          <li class="skills-skill">HTML</li>
+          <li class="skills-skill">JavaScript</li>
+        </ul>
+      </section>
+    </div>
+
+    <div class="horizontal-padding vertical-padding">
+      <section class="contact" id="contact">
+        <h2 class="contact-title">Contacto</h2>
+        <div class="contact-details">
+          <div class="contact-details-group">
+            <p class="contact-label">Telefono:</p>
+            <p class="contact-text">+034242585412</p>
+          </div>
+          <div class="contact-details-group">
+            <p class="contact-label">Email:</p>
+            <p class="contact-text">ejemplo@mail.com</p>
+          </div>
+          <div class="contact-details-group">
+            <p class="contact-text">
+            Por favor dejeme su mensaje y a la brevedad me contactare con usted!
+            </p>
+          </div>
+        </div>
+        <form class="contact-form" name="contact" netlify>
+          <div class="contact-form-group">
+            <label for="name">Nombre</label>
+            <input required type="text" name="name" id="name" />
+          </div>
+          <div class="contact-form-group">
+            <label for="email">Email</label>
+            <input required type="email" name="email" id="email" />
+          </div>
+          <div class="contact-form-group">
+            <label for="message">Mensaje</label>
+            <textarea required name="message" id="message" rows="6"></textarea>
+          </div>
+
+          <button type="submit" class="contact-form-submit">Enviar</button>
+        </form>
+        <nav class="social">
+          <ul class="social-list">
+            <li>
+              <a href="https://twitter.com">
+                <img src="img/social/twitter.svg" alt="twitter profile" />
+              </a>
+                </li>
+                <li>
+                    <a href="https://www.youtube.com/" class="social-link"><img src="img/social/youtube.svg" alt="youtube profile" /></a>
+                </li>
+
+
+                </ul>
+                </nav>
+        </section>
+        </div>
+</body>
+
+</html>
